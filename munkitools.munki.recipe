@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.munkitools</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://code.google.com/p/munki/downloads/list</string>
+		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>
+		<string>Command-line Managed Software Update admin tools.</string>
+		<key>MUNKITOOLS_ADMIN_DISPLAYNAME</key>
+		<string>Managed Software Update admin tools</string>
+		<key>MUNKITOOLS_ADMIN_NAME</key>
+		<string>MunkiToolsAdmin</string>
+		<key>MUNKITOOLS_APP_DESCRIPTION</key>
+		<string>Managed Software Update application.</string>
+		<key>MUNKITOOLS_APP_DISPLAYNAME</key>
+		<string>Managed Software Update</string>
+		<key>MUNKITOOLS_APP_NAME</key>
+		<string>MunkiTools</string>
+		<key>MUNKITOOLS_CORE_DESCRIPTION</key>
+		<string>Core command-line tools used by Managed Software Update.</string>
+		<key>MUNKITOOLS_CORE_DISPLAYNAME</key>
+		<string>Managed Software Update core tools</string>
+		<key>MUNKITOOLS_CORE_NAME</key>
+		<string>MunkiToolsCore</string>
+		<key>MUNKITOOLS_LAUNCHD_DESCRIPTION</key>
+		<string>launchd configuration files for use by Managed Software Update</string>
+		<key>MUNKITOOLS_LAUNCHD_DISPLAYNAME</key>
+		<string>Managed Software Update launchd files</string>
+		<key>MUNKITOOLS_LAUNCHD_NAME</key>
+		<string>MunkiToolsLaunchD</string>
+		<key>MUNKI_CATALOG</key>
+		<string>testing</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Munki</string>
+		<key>NAME</key>
+		<string>MunkiTools</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.munkitools</string>
+</dict>
+</plist>
