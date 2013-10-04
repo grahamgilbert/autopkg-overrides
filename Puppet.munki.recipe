@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.Puppet</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/PuppetLabs/Puppet</string>
+		<key>NAME</key>
+		<string>Puppet</string>
+		<key>VERSION</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively.</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>requires</key>
+			<array>
+				<string>Facter</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+            <key>preinstall_script</key>
+            	<string>#!/bin/bash
+                    if [ -f /Library/LaunchDaemons/com.reductivelabs.puppet.plist ]
+                        then
+            /bin/launchctl unload /Library/LaunchDaemons/com.reductivelabs.puppet.plist
+            fi
+        </string>
+            <key>postinstall_script</key>
+            	<string>#!/bin/bash
+        if [ -f /Library/LaunchDaemons/com.reductivelabs.puppet.plist ]
+        then
+            /bin/launchctl load /Library/LaunchDaemons/com.reductivelabs.puppet.plist
+            fi
+        </string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.puppet</string>
+</dict>
+</plist>
