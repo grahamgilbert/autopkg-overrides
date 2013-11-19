@@ -1,0 +1,9 @@
+AdobeFlashPlayer.munki
+AdobeReader.munki
+Facter.munki
+Flip4Mac-3.munki
+Firefox.munki
+MSOffice2011Updates.munki
+munkitools.munki
+Puppet.munki
+Silverlight.munki
