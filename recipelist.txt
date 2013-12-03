@@ -1,9 +1,13 @@
 AdobeFlashPlayer.munki
 AdobeReader.munki
+Cord.munki
 Facter.munki
 Flip4Mac-3.munki
 Firefox.munki
+Handbrake.munki
 MSOffice2011Updates.munki
 munkitools.munki
 Puppet.munki
 Silverlight.munki
+VLC.munki
+Vagrant.munki
