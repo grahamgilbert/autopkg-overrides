@@ -48,6 +48,9 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>requires</key>
+			<array>
+			</array>
 			<key>update_for</key>
 			<array>
             	<string>Office2011MB</string>
