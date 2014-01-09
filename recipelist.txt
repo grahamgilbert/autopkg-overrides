@@ -1,3 +1,4 @@
+AdobeAir.munki
 AdobeFlashPlayer.munki
 AdobeReader.munki
 Cord.munki
