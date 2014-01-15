@@ -8,6 +8,7 @@ Firefox.munki
 Handbrake.munki
 MSOffice2011Updates.munki
 munkitools.munki
+OracleJava7.munki
 Puppet.munki
 Silverlight.munki
 VLC.munki
