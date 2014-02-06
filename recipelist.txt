@@ -1,4 +1,3 @@
-AdobeAir.munki
 AdobeFlashPlayer.munki
 AdobeReader.munki
 Cord.munki
@@ -11,5 +10,6 @@ munkitools.munki
 OracleJava7.munki
 Puppet.munki
 Silverlight.munki
+Skype.munki
 VLC.munki
 Vagrant.munki
