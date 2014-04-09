@@ -1,5 +1,7 @@
 AdobeFlashPlayer.munki
 AdobeReader.munki
+AdobeAir.munki
+AutoDMG.munki
 Cord.munki
 Facter.munki
 Flip4Mac-3.munki
