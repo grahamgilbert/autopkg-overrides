@@ -2,9 +2,9 @@ AdobeFlashPlayer.munki
 AdobeReader.munki
 AdobeAir.munki
 AutoDMG.munki
+CitrixReceiver.munki
 Cord.munki
 Facter.munki
-Flip4Mac-3.munki
 Firefox.munki
 Handbrake.munki
 MSOffice2011Updates.munki
