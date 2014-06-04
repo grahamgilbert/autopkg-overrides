@@ -18,7 +18,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>testing</string>
 			</array>
 			<key>description</key>
 			<string>Internet voice and video chat application</string>
