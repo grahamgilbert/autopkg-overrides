@@ -15,3 +15,4 @@ Silverlight.munki
 Skype.munki
 VLC.munki
 Vagrant.munki
+MakeCatalogs.munki
