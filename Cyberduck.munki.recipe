@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Cybeduck</string>
+		<string>apps/Cyberduck</string>
 		<key>NAME</key>
 		<string>Cyberduck</string>
 		<key>SPARKLE_FEED_URL</key>

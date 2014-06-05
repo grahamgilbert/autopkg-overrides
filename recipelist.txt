@@ -2,13 +2,13 @@
 AdobeFlashPlayer.munki
 AdobeReader.munki
 AdobeAir.munki
-Alfred.munki
+Alfred2.munki
 AppCleaner.munki
 Atom.munki
 AutoDMG.munki
 CitrixReceiver.munki
 Cord.munki
-Cybeduck.munki
+Cyberduck.munki
 Dropbox.munki
 Evernote.munki
 Facter.munki
