@@ -13,7 +13,6 @@ Dropbox.munki
 Evernote.munki
 Facter.munki
 Firefox.munki
-Fluid.munki.recipe
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki.recipe
 Handbrake.munki

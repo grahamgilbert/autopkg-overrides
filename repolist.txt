@@ -1,0 +1,9 @@
+autopkg/recipes
+autopkg/hjuutilainen-recipes
+autopkg/hansen-m-recipes
+autopkg/timsutton-recipes
+autopkg/jaharmi-recipes
+autopkg/jleggat-recipes
+autopkg/joshua-d-miller-recipes
+autopkg/dankeller-recipes
+autopkg/arubdesu-recipes
