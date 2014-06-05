@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Goolge/GoogleVoice</string>
+		<string>apps/Google/GoogleVoice</string>
 		<key>NAME</key>
 		<string>GoogleVoice</string>
 		<key>pkginfo</key>
