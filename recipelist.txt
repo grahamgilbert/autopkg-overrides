@@ -6,6 +6,7 @@ Alfred2.munki
 AppCleaner.munki
 Atom.munki
 AutoDMG.munki
+Cafeine.munki
 CitrixReceiver.munki
 Cord.munki
 Cyberduck.munki
@@ -14,7 +15,7 @@ Evernote.munki
 Facter.munki
 Firefox.munki
 GoogleDrive.munki.recipe
-GoogleVoiceAndVideo.munki.recipe
+GoogleVoiceAndVideo.munki
 Handbrake.munki
 Kaleidoscope.munki
 MSOffice2011Updates.munki
@@ -22,8 +23,10 @@ munkitools.munki
 OmniPlan.munki
 OracleJava7.munki
 Puppet.munki
+SequelPro.munki
 Silverlight.munki
 Skype.munki
+TextMate2.munki
 TheUnarchiver.munki
 Transmit.munki
 VLC.munki
