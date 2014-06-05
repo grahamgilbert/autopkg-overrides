@@ -3,6 +3,7 @@ AdobeFlashPlayer.munki
 AdobeReader.munki
 AdobeAir.munki
 Alfred.munki
+AppCleaner.munki
 Atom.munki
 AutoDMG.munki
 CitrixReceiver.munki
@@ -12,6 +13,9 @@ Dropbox.munki
 Evernote.munki
 Facter.munki
 Firefox.munki
+Fluid.munki.recipe
+GoogleDrive.munki.recipe
+GoogleVoiceAndVideo.munki.recipe
 Handbrake.munki
 Kaleidoscope.munki
 MSOffice2011Updates.munki
