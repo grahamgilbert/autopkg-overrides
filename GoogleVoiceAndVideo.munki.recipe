@@ -48,6 +48,6 @@
 		<string>https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.joshua-d-miller.autopkg.munki.GoogleVoiceandVideo</string>
+	<string>com.github.keeleysam.recipes.GoogleTalkPlugin</string>
 </dict>
 </plist>
