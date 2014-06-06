@@ -26,7 +26,6 @@ Puppet.munki
 SequelPro.munki
 Silverlight.munki
 Skype.munki
-TextMate2.munki
 TheUnarchiver.munki
 Transmit.munki
 VLC.munki
