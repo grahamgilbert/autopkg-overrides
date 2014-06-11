@@ -8,3 +8,4 @@ autopkg/joshua-d-miller-recipes
 autopkg/dankeller-recipes
 autopkg/arubdesu-recipes
 autopkg/keeleysam-recipes
+autopkg/jessepeterson-recipes
