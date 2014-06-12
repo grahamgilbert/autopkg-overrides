@@ -20,6 +20,7 @@ GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
 Handbrake.munki
 Hiera.munki
+iMovie.munki
 iPhoto.munki
 iTerm2.munki
 Kaleidoscope.munki
