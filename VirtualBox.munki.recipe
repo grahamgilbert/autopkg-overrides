@@ -33,6 +33,8 @@
 			</array>
 			<key>unattended_install</key>
 			<true/>
+			<key>category</key>
+			<string>Utilities</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
