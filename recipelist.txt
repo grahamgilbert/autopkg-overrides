@@ -24,11 +24,13 @@ iMovie.munki
 iPhoto.munki
 iTerm2.munki
 Kaleidoscope.munki
+Keynote.munki
 MSOffice2011Updates.munki
 MunkiAdmin.munki
 munkitools.munki
 OmniPlan.munki
 OracleJava7.munki
+Pages.munki
 Puppet.munki
 SequelPro.munki
 Silverlight.munki

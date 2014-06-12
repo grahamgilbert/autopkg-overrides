@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.grahamgilbert.munki.iMovie</string>
+	<string>com.grahamgilbert.munki.Pages</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Apple</string>
 		<key>NAME</key>
-		<string>iMovie</string>
+		<string>Pages</string>
 		<key>PATH</key>
 		<string>/Applications/%NAME%.app</string>
 		<key>pkginfo</key>
