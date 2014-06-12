@@ -17,6 +17,7 @@ Firefox.munki
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
 Handbrake.munki
+iPhoto.munki
 iTerm2.munki
 Kaleidoscope.munki
 MSOffice2011Updates.munki

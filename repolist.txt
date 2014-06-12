@@ -9,3 +9,4 @@ autopkg/dankeller-recipes
 autopkg/arubdesu-recipes
 autopkg/keeleysam-recipes
 autopkg/jessepeterson-recipes
+autopkg/nmcspadden-recipes
