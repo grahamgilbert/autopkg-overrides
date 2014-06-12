@@ -11,6 +11,7 @@ Caffeine.munki
 CitrixReceiver.munki
 Cord.munki
 Cyberduck.munki
+dockutil.munki
 Dropbox.munki
 Evernote.munki
 Facter.munki
@@ -23,6 +24,7 @@ iPhoto.munki
 iTerm2.munki
 Kaleidoscope.munki
 MSOffice2011Updates.munki
+MunkiAdmin.munki
 munkitools.munki
 OmniPlan.munki
 OracleJava7.munki
@@ -32,6 +34,7 @@ Silverlight.munki
 Skype.munki
 TheUnarchiver.munki
 Transmit.munki
+Transmission.munki
 VLC.munki
 Vagrant.munki
 VirtualBox.munki
