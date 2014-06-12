@@ -24,6 +24,8 @@
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>category</key>
+			<string>Apple</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
