@@ -8,8 +8,10 @@ Atom.munki
 AutoDMG.munki
 Bartender.munki
 Caffeine.munki
+CarbonCopyCloner.munki
 CitrixReceiver.munki
 Cord.munki
+CreateUserPkg.munki
 Cyberduck.munki
 dockutil.munki
 Dropbox.munki

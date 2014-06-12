@@ -3,37 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.grahamgilbert.munki.dockutil</string>
+	<string>com.grahamgilbert.munki.Dash</string>
 	<key>Input</key>
 	<dict>
-		<key>DOCKUTIL_URL</key>
-		<string>https://raw.github.com/kcrawford/dockutil/master/scripts/dockutil</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>config/dockutil</string>
+		<string>apps/Dash</string>
 		<key>NAME</key>
-		<string>dockutil</string>
+		<string>Dash</string>
+		<key>PATH</key>
+		<string>/Applications/%NAME%.app</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
-			<key>description</key>
-			<string>command line tool for managing dock items</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>preinstall_script</key>
-			<string>#!/bin/sh
-
-mkdir -p '/usr/local/bin'
-	</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>category</key>
-			<string>System</string>
+			<string>Apple</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jessepeterson.munki.dockutil</string>
+	<string>com.github.nmcspadden.pkg.munki.appstore</string>
 </dict>
 </plist>
