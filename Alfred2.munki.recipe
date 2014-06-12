@@ -31,6 +31,8 @@
 			<true/>
 			<key>unattended_uninstall</key>
 			<true/>
+			<key>category</key>
+			<string>Utilities</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>

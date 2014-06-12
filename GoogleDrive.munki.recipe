@@ -41,6 +41,8 @@ chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 </string>
 			<key>unattended_install</key>
 			<true/>
+			<key>category</key>
+			<string>Utilities</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>

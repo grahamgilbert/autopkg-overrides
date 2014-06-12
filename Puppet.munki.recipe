@@ -50,6 +50,8 @@
             /bin/launchctl load /Library/LaunchDaemons/com.reductivelabs.puppet.plist
             fi
         </string>
+		<key>category</key>
+		<string>System</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>

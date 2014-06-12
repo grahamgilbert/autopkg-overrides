@@ -38,6 +38,11 @@
 		<string>apps/Munki</string>
 		<key>NAME</key>
 		<string>MunkiTools</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>category</key>
+			<string>System</string>
+		</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.munkitools</string>

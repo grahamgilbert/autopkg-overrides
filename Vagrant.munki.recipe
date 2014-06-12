@@ -30,6 +30,8 @@
 			<true/>
 			<key>unattended_uninstall</key>
 			<true/>
+			<key>category</key>
+			<string>Developer</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>

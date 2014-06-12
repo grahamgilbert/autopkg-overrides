@@ -43,6 +43,8 @@
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>category</key>
+			<string>Internet Plugins</string>
 		</dict>
 		<key>url</key>
 		<string>https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg</string>

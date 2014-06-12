@@ -60,6 +60,8 @@
                 <string>Office2011Rapha</string>
                 <string>Office2011Brit</string>
 			</array>
+			<key>category</key>
+			<string>Productivity</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
