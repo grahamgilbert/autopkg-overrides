@@ -31,4 +31,5 @@ TheUnarchiver.munki
 Transmit.munki
 VLC.munki
 Vagrant.munki
+VirtualBox.munki
 MakeCatalogs.munki
