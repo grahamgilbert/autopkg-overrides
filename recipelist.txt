@@ -5,7 +5,6 @@ Alfred2.munki
 AppCleaner.munki
 Atom.munki
 AutoDMG.munki
-Bartender.munki
 Caffeine.munki
 CarbonCopyCloner.munki
 CitrixReceiver.munki
