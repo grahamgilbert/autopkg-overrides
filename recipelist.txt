@@ -1,4 +1,3 @@
-1Password.munki
 AdobeFlashPlayer.munki
 AdobeReader.munki
 AdobeAir.munki

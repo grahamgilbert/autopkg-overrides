@@ -1,1 +1,3 @@
+1Password.munki
 Dash.munki
+Divvy.munki
