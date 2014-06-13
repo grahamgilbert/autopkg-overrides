@@ -23,6 +23,7 @@ Keynote.munki
 MSOffice2011Updates.munki
 MunkiAdmin.munki
 munkitools.munki
+Numbers.munki
 OmniPlan.munki
 OracleJava7.munki
 Pages.munki
