@@ -1,6 +1,5 @@
 1Password.munki
 Alfred2.munki
-Atom.munki
 Bartender.munki
 Caffeine.munki
 Dash.munki
