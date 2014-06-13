@@ -1,4 +1,11 @@
 1Password.munki
+Alfred2.munki
+Atom.munki
 Bartender.munki
+Caffeine.munki
 Dash.munki
 Divvy.munki
+Evernote.munki
+Kaleidoscope.munki
+Transmit.munki
+Transmission.munki

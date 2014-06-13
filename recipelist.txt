@@ -1,11 +1,8 @@
 AdobeFlashPlayer.munki
 AdobeReader.munki
 AdobeAir.munki
-Alfred2.munki
 AppCleaner.munki
-Atom.munki
 AutoDMG.munki
-Caffeine.munki
 CarbonCopyCloner.munki
 CitrixReceiver.munki
 Cord.munki
@@ -13,7 +10,6 @@ CreateUserPkg.munki
 Cyberduck.munki
 dockutil.munki
 Dropbox.munki
-Evernote.munki
 Facter.munki
 Firefox.munki
 GoogleDrive.munki.recipe
@@ -23,7 +19,6 @@ Hiera.munki
 iMovie.munki
 iPhoto.munki
 iTerm2.munki
-Kaleidoscope.munki
 Keynote.munki
 MSOffice2011Updates.munki
 MunkiAdmin.munki
@@ -36,8 +31,6 @@ SequelPro.munki
 Silverlight.munki
 Skype.munki
 TheUnarchiver.munki
-Transmit.munki
-Transmission.munki
 VLC.munki
 Vagrant.munki
 VirtualBox.munki
