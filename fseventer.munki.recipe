@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.fseventer</string>
+	<key>Input</key>
+	<dict>
+		<key>ID</key>
+		<string>com.fernlightning.fseventer.pkg</string>
+		<key>MUNKI_REPO_SUBDIRECTORY</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>fseventer</string>
+		<key>SU_URL</key>
+		<string>http://www.fernLightning.com/appcasts/fseventer.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>description</key>
+			<string>fseventer is a GUI application that: (1) observes filesystem changes using the same underlying API as Spotlight; (2) provides a graphical representation of the file activity; (3) can be used to determine what files are changed via software installation, preferences, etc; (4) requires admin privileges to run.</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>preuninstall_script</key>
+			<string>#!/bin/bash
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+# On first run of fseventer.app, it creates or installs:
+# 	(1) /Library/LaunchDaemons/com.fernlightning.fseventer.plist
+# 	(2) /Library/PrivilegedHelperTools/com.fernlightning.fseventer
+launchd_plist="com.fernlightning.fseventer.plist"
+launchd_plist_path="/Library/LaunchDaemons/${launchd_plist}"
+privhelper="com.fernlightning.fseventer"
+privhelper_path="/Library/PrivilegedHelperTools/${privhelper}"
+if [[ -s "$launchd_plist_path" ]]; then
+	logger -is "munki preuninstall_script: unloading $launchd_plist_path"
+	launchctl unload "$launchd_plist_path"
+	sleep 2
+	logger -is "munki preuninstall_script: deleting $launchd_plist_path"
+	[[ -f "$launchd_plist_path" ]] &amp;&amp; rm -f "$launchd_plist_path"
+fi
+if [[ -s "$privhelper_path" ]]; then
+	if (ps axwwww -o command | grep -wq "$privhelper_path"); then
+		logger -is "munki preuninstall_script: killing process $privhelper"
+		killall -HUP "$privhelper"
+		sleep 2
+		killall -9 "$privhelper"
+	fi
+	logger -is "munki preuninstall_script: deleting $privhelper_path"
+	[[ -f "$privhelper_path" ]] &amp;&amp; rm -f "$privhelper_path"
+fi
+exit 0
+</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.fseventer</string>
+</dict>
+</plist>

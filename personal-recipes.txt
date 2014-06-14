@@ -5,6 +5,7 @@ Caffeine.munki
 Dash.munki
 Divvy.munki
 Evernote.munki
+fseventer.munki
 Kaleidoscope.munki
 Transmit.munki
 Transmission.munki
