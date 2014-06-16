@@ -9,7 +9,6 @@ CitrixReceiver.munki
 Cord.munki
 CreateUserPkg.munki
 Cyberduck.munki
-dockutil.munki
 Dropbox.munki
 Facter.munki
 Firefox.munki
