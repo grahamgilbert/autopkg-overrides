@@ -28,6 +28,10 @@
 			<true/>
             <key>category</key>
             <string>Developer</string>
+            <key>postinstall_script</key>
+            <string>#!/bin/bash
+mkdir -p /usr/local/bin
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
