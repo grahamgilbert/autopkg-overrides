@@ -9,7 +9,7 @@
 		<key>APP_DESTINATION</key>
 		<string>/Applications</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string>apps/GrandPerspective</string>
 		<key>NAME</key>
 		<string>GrandPerspective</string>
 		<key>SOURCEFORGE_FILE_PATTERN</key>
