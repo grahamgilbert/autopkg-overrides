@@ -8,6 +8,8 @@ Evernote.munki
 Fluid.munki
 fseventer.munki
 Kaleidoscope.munki
+munkitools2.munki
+Pacifist.munki
 SublimeText2.munki
 SublimeText3.munki
 Transmit.munki
