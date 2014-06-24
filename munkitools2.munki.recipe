@@ -19,7 +19,7 @@
 		<key>MUNKITOOLS_APP_DISPLAYNAME</key>
 		<string>Managed Software Center</string>
 		<key>MUNKITOOLS_APP_NAME</key>
-		<string>munkitools</string>
+		<string>MunkiTools</string>
 		<key>MUNKITOOLS_CORE_DESCRIPTION</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
 		<key>MUNKITOOLS_CORE_DISPLAYNAME</key>
@@ -33,9 +33,9 @@
 		<key>MUNKITOOLS_LAUNCHD_NAME</key>
 		<string>munkitools_launchd</string>
 		<key>MUNKI_CATALOG</key>
-		<string>testing</string>
+		<string>development</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>munkitools</string>
+		<string>apps/Munki</string>
 		<key>NAME</key>
 		<string>munkitools2</string>
 	</dict>
