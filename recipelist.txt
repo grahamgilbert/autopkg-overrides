@@ -12,7 +12,6 @@ Cyberduck.munki
 Dropbox.munki
 Facter.munki
 Firefox.munki
-GarageBand.munki
 GitHub.munki
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
