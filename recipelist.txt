@@ -22,6 +22,7 @@ iMovie.munki
 iPhoto.munki
 iTerm2.munki
 Keynote.munki
+MicrosoftRemoteDesktop.munki
 MSOffice2011Updates.munki
 MunkiAdmin.munki
 munkitools.munki
