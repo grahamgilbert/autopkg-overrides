@@ -59,6 +59,7 @@
             	<string>Office2011Vigilance</string>
                 <string>Office2011Rapha</string>
                 <string>Office2011Brit</string>
+                <string>Office2011forpeople</string>
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
