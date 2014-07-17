@@ -6,7 +6,6 @@ Dash.munki
 Divvy.munki
 Evernote.munki
 Fluid.munki
-fseventer.munki
 Kaleidoscope.munki
 Pacifist.munki
 SublimeText2.munki
