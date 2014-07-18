@@ -15,7 +15,6 @@ Firefox.munki
 GitHub.munki
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
-GrandPerspective.munki
 Handbrake.munki
 Hiera.munki
 iMovie.munki
