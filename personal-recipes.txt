@@ -12,3 +12,4 @@ SublimeText2.munki
 SublimeText3.munki
 Transmit.munki
 Transmission.munki
+Tweetbot.munki
