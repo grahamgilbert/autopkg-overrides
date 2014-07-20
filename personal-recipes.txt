@@ -8,6 +8,7 @@ Evernote.munki
 Fluid.munki
 Kaleidoscope.munki
 Pacifist.munki
+Slack.munki
 SublimeText2.munki
 SublimeText3.munki
 Sunrise.munki
