@@ -10,6 +10,8 @@ Kaleidoscope.munki
 Pacifist.munki
 SublimeText2.munki
 SublimeText3.munki
+Sunrise.munki
+Reeder.munki
 Transmit.munki
 Transmission.munki
 Tweetbot.munki
