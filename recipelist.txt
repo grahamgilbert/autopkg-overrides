@@ -8,7 +8,6 @@ CarbonCopyCloner.munki
 CitrixReceiver.munki
 Cord.munki
 CreateUserPkg.munki
-Cyberduck.munki
 Dropbox.munki
 Facter.munki
 Firefox.munki
