@@ -9,7 +9,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Divvy</string>
 		<key>NAME</key>
-		<string>Dash</string>
+		<string>Divvy</string>
 		<key>PATH</key>
 		<string>/Applications/%NAME%.app</string>
 		<key>pkginfo</key>
