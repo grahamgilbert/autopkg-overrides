@@ -1,6 +1,7 @@
 1Password.munki
 Alfred2.munki
 Bartender.munki
+Byword.munki
 Caffeine.munki
 Dash.munki
 Divvy.munki
