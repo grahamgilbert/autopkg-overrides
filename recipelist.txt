@@ -11,6 +11,7 @@ CreateUserPkg.munki
 Dropbox.munki
 Facter.munki
 Firefox.munki
+fseventer.munki
 GitHub.munki
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
