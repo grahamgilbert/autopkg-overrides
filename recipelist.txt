@@ -3,6 +3,7 @@ AdobeReader.munki
 AdobeAir.munki
 Atom.munki
 AppCleaner.munki
+Audacity.munki
 AutoDMG.munki
 CarbonCopyCloner.munki
 CitrixReceiver.munki
