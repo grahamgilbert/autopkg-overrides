@@ -30,6 +30,7 @@ Numbers.munki
 OmniGraffle6.munki
 OmniPlan.munki
 OracleJava7.munki
+OracleJava8.munki
 Pages.munki
 Puppet.munki
 SequelPro.munki
