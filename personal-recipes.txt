@@ -9,6 +9,7 @@ Evernote.munki
 Fluid.munki
 iNet.munki
 Kaleidoscope.munki
+Mactracker.munki
 Pacifist.munki
 Slack.munki
 SublimeText2.munki
