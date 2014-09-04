@@ -49,6 +49,8 @@ if [[ -s "$privhelper_path" ]]; then
 fi
 exit 0
 </string>
+			<key>category</key>
+			<string>Administration</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>

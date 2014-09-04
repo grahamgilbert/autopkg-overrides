@@ -25,7 +25,7 @@
 			<key>unattended_install</key>
 			<true/>
 			<key>category</key>
-			<string>Apple</string>
+			<string>Utilities</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
