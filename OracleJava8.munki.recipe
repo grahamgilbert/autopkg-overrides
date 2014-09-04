@@ -36,6 +36,8 @@
             </string>
 			<key>uninstallable</key>
 			<true/>
+			<key>category</key>
+			<string>Internet Plugins</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
