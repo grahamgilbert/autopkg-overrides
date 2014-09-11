@@ -19,3 +19,5 @@ Reeder.munki
 Transmit.munki
 Transmission.munki
 Tweetbot.munki
+WiFiExplorer.munki
+MakeCatalogs.munki
