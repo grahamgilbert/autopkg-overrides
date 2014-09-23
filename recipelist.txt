@@ -36,6 +36,7 @@ Puppet.munki
 SequelPro.munki
 Silverlight.munki
 Skype.munki
+Spotify.munki
 TextWrangler.munki
 TheUnarchiver.munki
 VLC.munki
