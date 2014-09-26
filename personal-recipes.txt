@@ -19,5 +19,6 @@ Reeder.munki
 Transmit.munki
 Transmission.munki
 Tweetbot.munki
+Pixelmator.munki
 WiFiExplorer.munki
 MakeCatalogs.munki
