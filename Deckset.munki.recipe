@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.grahamgilbert.munki.Pixelmator</string>
+	<string>com.grahamgilbert.munki.Deckset</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Pixelmator</string>
+		<string>apps/Deckset</string>
 		<key>NAME</key>
-		<string>Pixelmator</string>
+		<string>Deckset</string>
 		<key>PATH</key>
 		<string>/Applications/%NAME%.app</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>display_name</key>
 			<string>%NAME%</string>
@@ -25,9 +25,9 @@
 			<key>unattended_install</key>
 			<true/>
 			<key>category</key>
-			<string>Design &amp; CAD</string>
+			<string>Productivity</string>
 			<key>developer</key>
-			<string>Pixelmator</string>
+			<string>Deckset</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
