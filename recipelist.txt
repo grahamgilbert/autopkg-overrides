@@ -4,9 +4,7 @@ AdobeAir.munki
 Atom.munki
 AppCleaner.munki
 AutoDMG.munki
-Blender.munki
 CarbonCopyCloner.munki
-CitrixReceiver.munki
 Cord.munki
 CreateUserPkg.munki
 Dropbox.munki
