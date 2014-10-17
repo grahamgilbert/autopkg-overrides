@@ -26,6 +26,8 @@
 			<true/>
 			<key>category</key>
 			<string>Apple</string>
+			<key>minimum_os_version</key>
+			<string>10.10.0</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
