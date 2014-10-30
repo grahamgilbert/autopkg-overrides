@@ -15,6 +15,7 @@ GitHub.munki
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
 Handbrake.munki
+Harvest.munki
 Hiera.munki
 iMovie.munki
 iPhoto.munki
