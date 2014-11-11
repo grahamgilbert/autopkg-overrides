@@ -11,3 +11,4 @@ autopkg/keeleysam-recipes
 autopkg/jessepeterson-recipes
 autopkg/nmcspadden-recipes
 autopkg/jps3-recipes
+grahamgilbert/autopkg-recipes
