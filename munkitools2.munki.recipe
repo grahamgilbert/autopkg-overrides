@@ -42,6 +42,10 @@
 		<dict>
 			<key>category</key>
 			<string>System</string>
+			<key>catalogs</key>
+			<array>
+				<string>development</string>
+			</array>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
