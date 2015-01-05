@@ -8,7 +8,6 @@ Deckset.munki
 Divvy.munki
 Evernote.munki
 Fluid.munki
-iNet.munki
 Kaleidoscope.munki
 Mactracker.munki
 Pacifist.munki
