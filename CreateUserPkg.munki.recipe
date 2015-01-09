@@ -38,6 +38,6 @@ If you enable automatic login the password is stored in a kcpassword file, which
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jleggat.autopkg-recipes.CreateUserPkg.munki</string>
+	<string>com.github.jleggat.CreateUserPkg.munki</string>
 </dict>
 </plist>

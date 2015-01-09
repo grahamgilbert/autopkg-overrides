@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jleggat.autopkg-recipes.MunkiAdmin.munki</string>
+	<string>com.github.jleggat.MunkiAdmin.munki</string>
 </dict>
 </plist>
