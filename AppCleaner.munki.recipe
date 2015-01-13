@@ -33,6 +33,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.AppCleaner.munki</string>
+	<string>com.github.jleggat.AppCleaner.munki</string>
 </dict>
 </plist>
