@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.Transmit</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Transmit</string>
+		<key>NAME</key>
+		<string>Transmit</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Transmit is an excellent FTP (file transfer protocol), SFTP, S3 (Amazon.com file hosting) and iDisk/WebDAV client that allows you to upload, download, and delete files over the internet. With the most Mac-like interface available, Transmit makes FTP as simple, fun, and easy as it can possibly be.</string>
+			<key>display_name</key>
+			<string>Transmit</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>category</key>
+			<string>Developer</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.transmit</string>
+</dict>
+</plist>

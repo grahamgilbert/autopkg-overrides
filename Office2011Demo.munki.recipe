@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Identifier</key>
+    <string>com.grahamgilbert.munki.MSOffice2011Updates</string>
+    <key>Input</key>
+    <dict>
+        <key>CULTURE_CODE</key>
+        <string>0409</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>updates/Microsoft/Office/2011</string>
+        <key>NAME</key>
+        <string>Office2011_update</string>
+        <key>VERSION</key>
+        <string>latest</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>blocking_applications</key>
+            <array>
+                <string>MSN Messenger</string>
+                <string>Microsoft Lync</string>
+                <string>Microsoft Cert Manager</string>
+                <string>Microsoft Chart Converter</string>
+                <string>Microsoft Clip Gallery</string>
+                <string>Microsoft Entourage</string>
+                <string>Microsoft Outlook</string>
+                <string>Microsoft Error Reporting</string>
+                <string>Microsoft Excel</string>
+                <string>Microsoft Graph</string>
+                <string>Microsoft Help Viewer</string>
+                <string>Microsoft Language Register</string>
+                <string>Microsoft Communicator</string>
+                <string>Microsoft Messenger</string>
+                <string>Microsoft PowerPoint</string>
+                <string>Microsoft Query</string>
+                <string>Microsoft Word</string>
+                <string>My Day</string>
+                <string>Organization Chart</string>
+                <string>Expression Media</string>
+                <string>Remote Desktop Connection</string>
+                <string>Opera</string>
+                <string>Google Chrome</string>
+                <string>Firefox</string>
+                <string>Safari</string>
+            </array>
+            <key>catalogs</key>
+            <array>
+                <string>production</string>
+            </array>
+            <key>requires</key>
+            <array>
+            </array>
+            <key>update_for</key>
+            <array>
+                <string>Office2011</string>
+            </array>
+            <key>category</key>
+            <string>Productivity</string>
+        </dict>
+    </dict>
+    <key>ParentRecipe</key>
+    <string>com.github.autopkg.munki.Office2011Updates</string>
+</dict>
+</plist>

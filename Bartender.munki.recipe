@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.Bartender</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Bartender</string>
+		<key>NAME</key>
+		<string>Bartender</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Bartender lets you organize your Menu Bar Apps, by hiding them, rearranging them, or moving them to the Bartenders Bar. You can display the full menu bar, set options to have Menu Bar Apps show in the menu bar when they are updating, or have them always visible in the Bartenders Bar. There are loads of ways to configure Bartender to perform as you wish. Give it a go and find out.</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>category</key>
+			<string>Utilities</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.arubdesu.munki.Bartender</string>
+</dict>
+</plist>

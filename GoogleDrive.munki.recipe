@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.GoogleDrive</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/drive/installgoogledrive.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Google/GoogleDrive</string>
+		<key>NAME</key>
+		<string>GoogleDrive</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+			<key>display_name</key>
+			<string>Google Drive</string>
+			<key>minimum_os_version</key>
+			<string>10.6</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Resources/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>category</key>
+			<string>Utilities</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dankeller.munki.GoogleDrive</string>
+</dict>
+</plist>

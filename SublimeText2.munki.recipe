@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.SublimeText2</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/SublimeText/SublimeText2</string>
+		<key>NAME</key>
+		<string>SublimeText2</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://www.sublimetext.com/updates/2/stable/appcast_osx.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Sublime Text is an advanced text editor for OS X.</string>
+			<key>display_name</key>
+			<string>Sublime Text 2</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+            <key>category</key>
+            <string>Developer</string>
+            <key>postinstall_script</key>
+            <string>#!/bin/bash
+mkdir -p /usr/local/bin
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.keeleysam.recipes.SublimeText.SublimeText2.munki</string>
+</dict>
+</plist>

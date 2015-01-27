@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.Cord</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Cord</string>
+		<key>NAME</key>
+		<string>Cord</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://cord.sourceforge.net/sparkle.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>CoRD</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol. It's easy to use, fast, and free for anyone to use or modify.</string>
+			<key>display_name</key>
+			<string>CoRD</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>category</key>
+			<string>Utilities</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.munki.CoRD</string>
+</dict>
+</plist>
