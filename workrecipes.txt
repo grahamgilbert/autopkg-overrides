@@ -1,3 +1,0 @@
-Blender.munki
-CitrixReceiver.munki
-MakeCatalogs.munki
