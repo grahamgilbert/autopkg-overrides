@@ -3,6 +3,7 @@ AdobeReader.munki
 AdobeAir.munki
 Atom.munki
 AppCleaner.munki
+AppleRemoteDesktop.munki
 AutoDMG.munki
 Cord.munki
 CreateUserPkg.munki
