@@ -37,6 +37,7 @@ Sal.munki
 SequelPro.munki
 Silverlight.munki
 Skype.munki
+SourceTree.munki
 Spotify.munki
 TextWrangler.munki
 TheUnarchiver.munki
