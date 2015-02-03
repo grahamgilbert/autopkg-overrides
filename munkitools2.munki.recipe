@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://munkibuilds.org/munkitools2-latest.pkg</string>
+		<string>https://github.com/munki/munki/releases</string>
 		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>
 		<string>Command-line Managed Software Center admin tools.</string>
 		<key>MUNKITOOLS_ADMIN_DISPLAYNAME</key>
@@ -33,7 +33,7 @@
 		<key>MUNKITOOLS_LAUNCHD_NAME</key>
 		<string>munkitools_launchd</string>
 		<key>MUNKI_CATALOG</key>
-		<string>testing</string>
+		<string>development</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Munki</string>
 		<key>NAME</key>
@@ -42,10 +42,6 @@
 		<dict>
 			<key>category</key>
 			<string>System</string>
-			<key>catalogs</key>
-			<array>
-				<string>development</string>
-			</array>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
