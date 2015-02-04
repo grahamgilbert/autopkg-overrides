@@ -1,3 +1,4 @@
 Blender.munki
 CitrixReceiver.munki
+OmniPlan.munki
 MakeCatalogs.munki
