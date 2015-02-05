@@ -38,10 +38,6 @@
             /bin/launchctl unload /Library/LaunchDaemons/com.reductivelabs.puppet.plist
             fi
 
-						if [ `/usr/bin/facter macosx_productversion_major` != "10.9" ]
-						then
-							/usr/bin/gem install json_pure
-						fi
         </string>
             <key>postinstall_script</key>
             	<string>#!/bin/bash
