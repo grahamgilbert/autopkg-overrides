@@ -11,4 +11,4 @@ autopkg/keeleysam-recipes
 autopkg/jessepeterson-recipes
 autopkg/nmcspadden-recipes
 autopkg/jps3-recipes
-https://github.com/grahamgilbert/autopkg-recipes.git
+autopkg/grahamgilbert-recipes

@@ -29,6 +29,7 @@ munkitools.munki
 munkitools2.munki
 Numbers.munki
 OmniGraffle6.munki
+outset.munki
 OracleJava7.munki
 OracleJava8.munki
 Pages.munki
