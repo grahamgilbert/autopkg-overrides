@@ -46,6 +46,6 @@ chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.dankeller.munki.GoogleDrive</string>
+	<string>com.github.autopkg.recipes-dankeller.munki.google-drive</string>
 </dict>
 </plist>
