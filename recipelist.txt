@@ -11,6 +11,7 @@ Dropbox.munki
 Facter.munki
 Firefox.munki
 fseventer.munki
+Fuze.munki.recipe
 GitHub.munki
 GoogleChrome.munki
 GoogleDrive.munki.recipe
