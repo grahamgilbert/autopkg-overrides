@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Sal</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>config/sal</string>
+		<key>NAME</key>
+		<string>sal_scripts</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Client side scripts for Sal.</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>update_for</key>
+			<array>
+				<string>MunkiTools</string>
+			</array>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.grahamgilbert.Sal.munki</string>
+</dict>
+</plist>
