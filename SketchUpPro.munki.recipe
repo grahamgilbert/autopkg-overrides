@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.SketchUpPro</string>
+	<key>Input</key>
+	<dict>
+		<key>LOCALE</key>
+		<string>en</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>SketchUpPro</string>
+		<key>RELEASE_YEAR</key>
+		<string>2015</string>
+		<key>SUP_DOWNLOAD_PAGE_URL</key>
+		<string>http://www.sketchup.com/download/all</string>
+		<key>SU_FOLDER</key>
+		<string>SketchUp %RELEASE_YEAR%</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>SketchUp.app</string>
+				<string>Style Builder.app</string>
+				<string>Layout.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>SketchUp Pro is the most intuitive way to design, document and communicate your ideas in 3D. http://www.sketchup.com/products/sketchup-pro</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>minimum_os_version</key>
+			<string>10.8</string>
+			<key>name</key>
+			<string>%NAME%</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.SketchUpPro</string>
+</dict>
+</plist>

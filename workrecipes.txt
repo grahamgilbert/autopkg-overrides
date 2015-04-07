@@ -2,4 +2,5 @@ Blender.munki
 BetterTouchTool.munki
 CitrixReceiver.munki
 OmniPlan.munki
+SketchUpPro.munki
 MakeCatalogs.munki
