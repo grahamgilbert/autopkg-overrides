@@ -33,6 +33,7 @@ OmniGraffle6.munki
 outset.munki
 OracleJava7.munki
 OracleJava8.munki
+Packages.munki
 Pages.munki
 Puppet.munki
 Sal.munki
