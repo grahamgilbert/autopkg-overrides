@@ -47,4 +47,5 @@ TheUnarchiver.munki
 VLC.munki
 Vagrant.munki
 VirtualBox.munki
+VMwareTools.munki.recipe
 MakeCatalogs.munki
