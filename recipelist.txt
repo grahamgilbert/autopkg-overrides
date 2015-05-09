@@ -34,6 +34,7 @@ outset.munki
 OracleJava7.munki
 OracleJava8.munki
 Packages.munki
+Packer.munki
 Pages.munki
 Puppet.munki
 Sal.munki
