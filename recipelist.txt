@@ -13,6 +13,7 @@ Firefox.munki
 fseventer.munki
 Fuze.munki.recipe
 GitHub.munki
+Go.munki
 GoogleChrome.munki
 GoogleDrive.munki.recipe
 GoogleVoiceAndVideo.munki
@@ -23,6 +24,7 @@ iMovie.munki
 iPhoto.munki
 iTerm2.munki
 Keynote.munki
+LaunchControl.munki
 MicrosoftRemoteDesktop.munki
 MSOffice2011Updates.munki
 MunkiAdmin.munki

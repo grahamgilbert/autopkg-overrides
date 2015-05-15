@@ -14,3 +14,4 @@ autopkg/jps3-recipes
 autopkg/grahamgilbert-recipes
 autopkg/swy-recipes
 autopkg/derak-recipes
+autopkg/homebysix-recipes
