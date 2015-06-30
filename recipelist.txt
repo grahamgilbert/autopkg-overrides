@@ -43,7 +43,6 @@ Handbrake.munki
 Harvest.munki
 Hiera.munki
 iMovie.munki
-iPhoto.munki
 iTerm2.munki
 Keynote.munki
 LaunchControl.munki
