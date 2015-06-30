@@ -49,6 +49,7 @@ Keynote.munki
 LaunchControl.munki
 MicrosoftRemoteDesktop.munki
 MSOffice2011Updates.munki
+MSOutlook.munki
 MunkiAdmin.munki
 munkitools.munki
 munkitools2.munki
@@ -71,6 +72,7 @@ TextWrangler.munki
 TheUnarchiver.munki
 VLC.munki
 Vagrant.munki
+VagrantManager.munki
 VirtualBox.munki
 VMwareTools.munki.recipe
 MakeCatalogs.munki

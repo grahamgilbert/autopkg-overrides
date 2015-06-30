@@ -17,3 +17,4 @@ autopkg/derak-recipes
 autopkg/homebysix-recipes
 autopkg/justinrummel-recipes
 autopkg/rtrouton-recipes
+autopkg/gerardkok-recipes
