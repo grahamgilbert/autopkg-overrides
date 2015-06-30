@@ -49,7 +49,6 @@ Keynote.munki
 LaunchControl.munki
 MicrosoftRemoteDesktop.munki
 MSOffice2011Updates.munki
-MSOutlook.munki
 MunkiAdmin.munki
 munkitools.munki
 munkitools2.munki
