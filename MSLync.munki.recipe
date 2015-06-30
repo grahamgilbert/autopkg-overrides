@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.MSLync</string>
+	<key>Input</key>
+	<dict>
+		<key>CULTURE_CODE</key>
+		<string>0409</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Microsoft/Office2011</string>
+		<key>NAME</key>
+		<string>MSLync</string>
+		<key>VERSION</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>MSN Messenger</string>
+				<string>Microsoft Lync</string>
+				<string>Microsoft Error Reporting</string>
+				<string>Microsoft Communicator</string>
+				<string>Microsoft Messenger</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.arubdesu.munki.LyncInstaller</string>
+</dict>
+</plist>
