@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.iStatMenus</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://download.bjango.com/istatmenus/</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Bjango/iStatMenus</string>
+		<key>NAME</key>
+		<string>iStatMenus</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>production</string>
+			</array>
+			<key>description</key>
+			<string>iStat Menus is an advanced Mac system monitor, covering an enormous range of stats. It lives right in your Mac’s menubar, so detailed information is only ever a glance or single click away.</string>
+			<key>display_name</key>
+			<string>iStat Menus</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.keeleysam.recipes.Bjango.iStatMenus.munki</string>
+</dict>
+</plist>
