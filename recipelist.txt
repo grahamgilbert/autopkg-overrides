@@ -5,10 +5,10 @@ Bartender.munki
 Byword.munki
 Caffeine.munki
 Cyberduck.munki
-CarbonCopyCloner.munki
 Dash.munki
 Deckset.munki
 Divvy.munki
+dockutil.munki
 Evernote.munki
 Fluid.munki
 Kaleidoscope.munki
@@ -80,4 +80,5 @@ Vagrant.munki
 VagrantManager.munki
 VirtualBox.munki
 VMwareTools.munki.recipe
+Xcode.munki
 MakeCatalogs.munki
