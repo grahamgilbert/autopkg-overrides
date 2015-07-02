@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>Sunrise</string>
 		<key>PATH</key>
-		<string>/Applications/%NAME%.app</string>
+		<string>/Applications/Sunrise Calendar.app</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
