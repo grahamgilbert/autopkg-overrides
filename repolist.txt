@@ -18,3 +18,4 @@ autopkg/homebysix-recipes
 autopkg/justinrummel-recipes
 autopkg/rtrouton-recipes
 autopkg/gerardkok-recipes
+autopkg/thenikola-recipes

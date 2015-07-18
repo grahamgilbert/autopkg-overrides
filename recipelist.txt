@@ -1,6 +1,8 @@
 1Password.munki
 Audacity.munki
 Alfred2.munki
+AnyConnect.munki
+AutoPkg-Release.munki
 Bartender.munki
 Byword.munki
 Caffeine.munki

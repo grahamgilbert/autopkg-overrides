@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.AutoPkg-Release</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>AutoPkg</string>
+		<key>NAME</key>
+		<string>AutoPkg</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>MunkiTools</string>
+			<key>description</key>
+			<string>AutoPkg is an automation framework for OS X software packaging and distribution, oriented towards the tasks one would normally perform manually to prepare third-party software for mass deployment to managed clients.</string>
+			<key>developer</key>
+			<string>Timothy Sutton</string>
+			<key>display_name</key>
+			<string>AutoPkg</string>
+			<key>minimum_os_version</key>
+			<string>10.7.2</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.thenikola.munki.AutoPkg-Release</string>
+</dict>
+</plist>
