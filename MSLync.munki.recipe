@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.grahamgilbert.munki.MSLync</string>
+	<string>com.xbstech.munki.MSLync</string>
 	<key>Input</key>
 	<dict>
 		<key>CULTURE_CODE</key>

@@ -3,17 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.grahamgilbert.munki.GitHub</string>
+	<string>local.munki.Sal-osquery</string>
 	<key>Input</key>
 	<dict>
-		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-		<false/>
-		<key>DOWNLOAD_URL</key>
-		<string>https://central.github.com/mac/latest</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/GitHub</string>
+		<string>config/sal</string>
 		<key>NAME</key>
-		<string>GitHub</string>
+		<string>sal-osquery</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,18 +17,22 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>GUI application for GitHub.com</string>
-			<key>display_name</key>
-			<string>GitHub</string>
+			<string>osquery configuration for Sal.</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-			<key>category</key>
-			<string>Developer</string>
+			<key>update_for</key>
+			<array>
+				<string>sal_scripts</string>
+			</array>
+			<key>requires</key>
+			<array>
+				<string>osquery</string>
+			</array>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.recipes.GitHub.munki</string>
+	<string>com.github.grahamgilbert.Sal-osquery.munki</string>
 </dict>
 </plist>

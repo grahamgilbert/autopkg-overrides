@@ -3,6 +3,14 @@ Audacity.munki
 Alfred2.munki
 AnyConnect.munki
 AutoPkg-Release.munki
+osquery.munki
+Clear.munki
+MSExcel2016.munki
+MSLync.munki
+MSOneNote.munki
+MSOutlook.munki
+MSPowerPoint2016.munki
+MSWord2016.munki
 Bartender.munki
 Byword.munki
 Caffeine.munki
@@ -38,9 +46,8 @@ CreateUserPkg.munki
 Dropbox.munki
 Facter.munki
 Firefox.munki
-fseventer.munki
 Fuze.munki.recipe
-GitHub.munki
+GitHubDesktop.munki
 Go.munki
 GoogleChrome.munki
 GoogleDrive.munki.recipe
@@ -68,8 +75,10 @@ OracleJava8.munki
 Packages.munki
 Packer.munki
 Pages.munki
+GarageBand.munki.recipe
 Puppet.munki
 Sal.munki
+Sal-osquery.munki
 SequelPro.munki
 Silverlight.munki
 Skype.munki
