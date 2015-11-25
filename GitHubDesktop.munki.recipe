@@ -7,11 +7,11 @@
 	<key>Input</key>
 	<dict>
 		<key>FILENAME</key>
-		<string>GitHubDesktop</string>
+		<string>GitHub Desktop</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/GitHub</string>
 		<key>NAME</key>
-		<string>GitHubDesktop</string>
+		<string>GitHub Desktop</string>
 		<key>URL</key>
 		<string>https://central.github.com/mac/latest</string>
 		<key>pkginfo</key>
@@ -27,7 +27,7 @@
 			<key>minimum_os_version</key>
 			<string>10.9</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>GitHubDesktop</string>
 			<key>postinstall_script</key>
 			<string>#!/bin/bash
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.grahamgilbert.munki.Puppet-Agent</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/PuppetLabs/Puppet</string>
+		<key>NAME</key>
+		<string>Puppet-Agent</string>
+		<key>OS_VERSION</key>
+		<string>10.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+			<key>developer</key>
+			<string>Puppetlabs</string>
+			<key>display_name</key>
+			<string>Puppet Agent</string>
+			<key>maximum_os_version</key>
+			<string>%OS_VERSION%.99</string>
+			<key>minimum_os_version</key>
+			<string>%OS_VERSION%.0</string>
+			<key>name</key>
+			<string>PuppetAgent</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>postinstall_script</key>
+			<string>#!/bin/sh
+if [ -e "/Library/Management/bin/puppet_run.py" ]; then
+rm -r "/Library/Management/bin/puppet_run.py"
+fi
+if [ -e "/Library/LaunchDaemons/com.grahamgilbert.puppet_run.plist" ]; then
+launchctl unload -w /Library/LaunchDaemons/com.grahamgilbert.puppet_run.plist
+rm -r "/Library/LaunchDaemons/com.grahamgilbert.puppet_run.plist"
+fi
+exit 0
+            </string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.puppet-agent</string>
+</dict>
+</plist>

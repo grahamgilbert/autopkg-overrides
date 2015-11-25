@@ -1,4 +1,6 @@
 1Password.munki
+Puppet-Agent.munki
+iLog.munki
 Audacity.munki
 Alfred2.munki
 AnyConnect.munki
@@ -56,7 +58,6 @@ GrandPerspective.munki
 Handbrake.munki
 Harvest.munki
 Hiera.munki
-iMovie.munki
 iTerm2.munki
 iStatMenus.munki
 Keynote.munki
@@ -75,7 +76,6 @@ OracleJava8.munki
 Packages.munki
 Packer.munki
 Pages.munki
-GarageBand.munki.recipe
 Puppet.munki
 Sal.munki
 Sal-osquery.munki
