@@ -23,6 +23,7 @@ Divvy.munki
 dockutil.munki
 Evernote.munki
 Fluid.munki
+Flux.munki
 Kaleidoscope.munki
 LingonX.munki
 Mactracker.munki

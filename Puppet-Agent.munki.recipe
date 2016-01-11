@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>Puppet-Agent</string>
 		<key>OS_VERSION</key>
-		<string>10.10</string>
+		<string>10.11</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
